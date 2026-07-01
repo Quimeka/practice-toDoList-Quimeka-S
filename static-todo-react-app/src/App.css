@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+}
+
+.App {
+  background-color: black;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color: orange;
+  margin-bottom: 20px;
+}
+
+li::before {
+  content: "✔ ";
+  color: orange;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  background-color: grey;
+  color: antiquewhite;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: left;
+  font-style: italic;
+}
+
